@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bgvideo {
+  height: 100%;
+  width: 100vw;
+}
+
+.video {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.login .container {
+  width: 25em;
+  height: 25em;
+  background-color: white;
+  position: absolute;
+  top: 11rem;
+  left: 10rem;
+}
+
+.login .container span {
+  padding: 10px;
+  font-family: var(--font2);
+}
+
+.login input {
+  margin-bottom: 2vh;
+  width: 95%;
+  height: 5vh;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-group button {
+  margin: 2em;
+  width: 8em;
+  height: 2.5em;
+}
