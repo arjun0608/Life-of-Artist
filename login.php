@@ -20,19 +20,21 @@
         //Validating username and password
         if ($uname == $row['username'] &&  $password == $row['password']) {
           echo " 
-            <script> 
-              alert('Login Successfull...');
-              window.location="index.php"
-            </script>";
+                  <script> 
+                    alert('Login Successfull...'); 
+                    window.location.href='index.php';
+                  </script>
+                ";
 
         }
       }
       else{
         echo " 
-            <script> 
-              alert('Database Error...');
-              window.location="login.php"
-            </script>";
+                <script> 
+                  alert('Database Error...');
+                  window.location.href='login.php';
+                </script>
+              ";
       }
     } 
     else {
