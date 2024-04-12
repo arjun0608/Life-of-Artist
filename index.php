@@ -1,3 +1,6 @@
+<?php
+  include "connect.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,6 +17,7 @@
     <title>Life Of Artists</title>
   </head>
   <body>
+    <form action="" method="POST">
     <div class="content">
       <div class="bgvideo">
         <video autoplay loop muted plays-inline class="video">
@@ -90,5 +94,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    </form>
   </body>
 </html>
