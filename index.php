@@ -1,5 +1,5 @@
 <?php
 
-echo 'Zhala ata ghari jaa';
+    echo 'Zhala ata ghari jaa';
 
 ?>
