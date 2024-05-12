@@ -1,0 +1,113 @@
+/* Custom CSS for the About page */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Adding a semi-transparent white background to the container */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 25px;
+}
+
+header {
+  font-family: "Arial";
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color: crimson;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #555;
+  text-decoration: none;
+  margin: 3rem;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-left: 21rem;
+}
+.about p {
+  text-align: center;
+  line-height: 1.7em;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.statement h3 {
+  font-size: 2rem;
+  margin-left: 16.5rem;
+}
+.statement p {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: -1rem;
+  font-size: 20px;
+}
+.icons {
+  color: white;
+  align-items: center;
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 0.5rem;
+}
+.icons h3 {
+  color: #000;
+}
+.icons img {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 4rem;
+}
+.connect {
+  text-align: center;
+}
+.connect p a {
+  color: black;
+}
